@@ -82,6 +82,16 @@ main {
     border-left: 4px solid #667eea;
 }
 
+.card2 {
+    background: rgb(41, 226, 217);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-left: 4px solid #667eea;
+}
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
