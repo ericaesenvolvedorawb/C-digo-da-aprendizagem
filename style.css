@@ -242,37 +242,7 @@ h3 {
 
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:wght@700&family=Fredoka+One&family=Nunito:wght@800;900&display=swap');
 
-/* Animações */
-@keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
 
-@keyframes colorShift {
-    0% { color: #4ECDC4; }
-    50% { color: #FF6B6B; }
-    100% { color: #45B7AF; }
-}
-
-@keyframes gentlePulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-}
-
-@keyframes wiggle {
-    0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(1deg); }
-    75% { transform: rotate(-1deg); }
-}
-
-@keyframes rainbow {
-    0% { color: #FF6B6B; }
-    20% { color: #4ECDC4; }
-    40% { color: #FFD166; }
-    60% { color: #6A67CE; }
-    80% { color: #FF9A76; }
-    100% { color: #45B7AF; }
-}
 
 /* Estilos para h3 */
 h3 {
